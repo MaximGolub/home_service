@@ -1,0 +1,1382 @@
+# Translation of Plugins - FiboSearch &#8211; Ajax Search for WooCommerce - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - FiboSearch &#8211; Ajax Search for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-16 10:47:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.2\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - FiboSearch &#8211; Ajax Search for WooCommerce - Stable (latest release)\n"
+
+#: build/blocks/search/block.json src/blocks/search/block.json
+msgctxt "block title"
+msgid "FiboSearch"
+msgstr "FiboSearch"
+
+#: build/blocks/search-nav/block.json build/blocks/search/block.json
+#: src/blocks/search-nav/block.json src/blocks/search/block.json
+msgctxt "block keyword"
+msgid "product"
+msgstr "товар"
+
+#: build/blocks/search-nav/block.json build/blocks/search/block.json
+#: src/blocks/search-nav/block.json src/blocks/search/block.json
+msgctxt "block keyword"
+msgid "search"
+msgstr "пошук"
+
+#: build/blocks/search-nav/block.json build/blocks/search/block.json
+#: src/blocks/search-nav/block.json src/blocks/search/block.json
+msgctxt "block description"
+msgid "AJAX (live) search form for WooCommerce"
+msgstr "Форма пошуку AJAX для WooCommerce"
+
+#: build/blocks/search-nav/block.json src/blocks/search-nav/block.json
+msgctxt "block title"
+msgid "FiboSearch navigation item"
+msgstr "Елемент навігації FiboSearch"
+
+#: partials/admin/stats/stats.php:230
+msgctxt "The last placeholder is a button with text \"reset your stats\""
+msgid "The stats older than %d days are removed from your database on a daily basis. Now you have %d records in the DB that weigh %.2fMB. You can %s now and start collecting them all over again."
+msgstr "Статистичні дані, старші ніж %d днів, щодня видаляються з вашої бази даних. Тепер у вас %d записів у БД вагою %.2fMB. Ви можете %s зараз і почати збирати її знову."
+
+#: partials/admin/stats/stats.php:227
+msgid "reset your stats"
+msgstr "скинути статистику"
+
+#: partials/admin/stats/stats.php:224
+msgid "Maintenance"
+msgstr "Технічне обслуговування"
+
+#: partials/admin/stats/stats.php:15
+msgid "These phrases don`t return any search results. It's time to fix it."
+msgstr "Ці фрази не дають результатів пошуку. Настав час це виправити."
+
+#: partials/admin/stats/stats.php:13
+msgid "These phrases have been typed by users over the last 1 day."
+msgid_plural "These phrases have been typed by users over the last %d days."
+msgstr[0] "Ці фрази були введені користувачами протягом останнього дня."
+msgstr[1] "Ці фрази були введені користувачами протягом останніх %d днів."
+msgstr[2] "Ці фрази були введені користувачами протягом останніх %d днів."
+
+#: partials/admin/stats/stats.php:11
+msgid "The FiboSearch analyzer found <b>1 critical search phrase</b>."
+msgid_plural "The FiboSearch analyzer found <b>%d critical search phrases</b>."
+msgstr[0] "Аналізатор FiboSearch знайшов <b>1 критичну пошукову фразу</b>."
+msgstr[1] "Аналізатор FiboSearch знайшов <b>%d критичні пошукові фрази</b>."
+msgstr[2] "Аналізатор FiboSearch знайшов <b>%d критичних пошукових фраз</b>."
+
+#: includes/Analytics/UserInterface.php:129
+msgid "Are you sure you want to reset stats?"
+msgstr "Ви впевнені, що бажаєте скинути статистику?"
+
+#: includes/Admin/Troubleshooting.php:437
+msgid "Incompatible \"Searching by Text\" extension from \"WOOF - WooCommerce Products Filter plugin\" is active"
+msgstr "Активне несумісне розширення \"Пошук за текстом\" із \"WOOF – Products Filter for WooCommerce\""
+
+#: partials/admin/stats/stats.php:175
+msgid "Here is the list of phrases that were typed by users who followed the pattern: type the phrase into the bar → clicked “See all results” or just hit enter/return (for Mac users)"
+msgstr "Ось перелік фраз, які були введені користувачами, які слідували шаблону: введіть фразу в рядок→ натиснули \"Показати всі результати\" або просто натиснули Enter/Return (для користувачів Mac)"
+
+#: partials/admin/stats/stats.php:174
+msgid "Top searches - WooCommerce search results page"
+msgstr "Найпопулярніші пошуки – сторінка результатів пошуку WooCommerce"
+
+#: partials/admin/stats/stats.php:127
+msgid "The list of phrases with results is displayed to users as a drop down list with auto suggestions."
+msgstr "Перелік фраз із результатами відображається користувачам у вигляді випадаючого переліку з автоматичними пропозиціями."
+
+#: partials/admin/stats/stats.php:126
+msgid "Top searches - autocomplete"
+msgstr "Найпопулярніші пошукові запити - в результатах пошуку"
+
+#: partials/admin/search-preview.php:30 partials/admin/search-preview.php:70
+msgid "On desktop"
+msgstr "На комп’ютері"
+
+#: partials/admin/search-preview.php:29 partials/admin/search-preview.php:69
+msgid "On mobile"
+msgstr "На мобільному"
+
+#: partials/admin/debug/debug.php:21
+msgid "Debug page"
+msgstr "Сторінка налагодження"
+
+#: includes/Settings.php:932
+msgid "You have selected the <b>Appearance -> Style -> Pirx</b> option. Pirx style forces a submit button to be enabled. You can find this option a few rows below. That's why this option is blocked."
+msgstr "Ви вибрали параметр <b>Вигляд -> Стиль -> Pirx</b>. Стиль Pirx примусово вмикає кнопку надсилання. Ви можете знайти цю опцію кількома рядками нижче. Тому ця опція заблокована."
+
+#: includes/Settings.php:604
+msgid "The synonyms feature allows your users to find more relevant results. If your products have alternative names and users often misspell them, consider adding synonyms. <a target=\"_blank\" href=\"%s\">Read more</a> about this feature."
+msgstr "Функція синонімів дозволяє вашим користувачам мати більш релевантні результати. Якщо ваші товари мають альтернативні назви і користувачі часто пишуть їх неправильно, додайте синоніми. <a target=\"_blank\" href=\"%s\">Докладніше</a> про цю функцію."
+
+#: includes/Settings.php:579
+msgid "Make your custom fields searchable from our search bar."
+msgstr "Зробіть ваші власні поля доступними для пошуку з нашої панелі пошуку."
+
+#: includes/Settings.php:317
+msgid "Other colors"
+msgstr "Інші кольори"
+
+#: includes/Settings.php:291
+msgid "Covers anything that is displayed on the screen and simplifies the view to search bar + results."
+msgstr "Покриває все, що відображається на екрані, та спрощує перегляд панелі пошуку та результатів."
+
+#: includes/Settings.php:275 includes/Settings.php:299
+msgid "Breakpoint"
+msgstr "Точка зупинки"
+
+#: includes/Settings.php:262
+msgid "See what each of these layouts looks like"
+msgstr "Подивіться, як виглядає кожен із цих макетів"
+
+#: includes/Settings.php:262
+msgid "FiboSearch might be displayed as a search bar, icon, or mixed of them."
+msgstr "FiboSearch може відображатися у вигляді панелі пошуку, піктограми або їх суміші."
+
+#: includes/Settings.php:255
+msgctxt "Pirx is proper name."
+msgid "Pirx (beta)"
+msgstr "Pirx (бета-версія)"
+
+#: includes/Settings.php:254
+msgctxt "Solaris is proper name."
+msgid "Solaris (default)"
+msgstr "Solaris (початковий)"
+
+#: includes/Settings.php:251
+msgid "FiboSearch provides two different styles of search bars: Solaris and Pirx. Solaris has a rectangular shape while Pirx is a bean-shaped bar with curvy and smooth edges. <a target=\"_blank\" href=\"%s\">See the differences</a> between Solaris and Pirx style."
+msgstr "FiboSearch пропонує два різних стилі панелі пошуку: Solaris і Pirx. Solaris має прямокутну форму, тоді як Pirx – це брусок у формі боба з вигнутими та гладкими краями. <a target=\"_blank\" href=\"%s\">Подивіться відмінності</a> між стилями Solaris і Pirx."
+
+#: includes/Settings.php:245
+msgid "Appearance"
+msgstr "Вигляд"
+
+#: includes/Settings.php:225
+msgid "Background color"
+msgstr "Колір фону"
+
+#: includes/Settings.php:218
+msgid "Label"
+msgstr "Мітка"
+
+#: includes/Settings.php:166
+msgid "<a target=\"_blank\" href=\"%s\">Read more</a> about this feature."
+msgstr "<a target=\"_blank\" href=\"%s\">Докладніше</a> про цю функцію."
+
+#: includes/EmbeddingViaMenu.php:190 includes/Settings.php:268 widget.php:41
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:134 src/blocks/search/edit.js:119
+msgid "Icon on desktop, search bar on mobile"
+msgstr "Іконка на комп’ютері, панель пошуку на мобільному"
+
+#: includes/Analytics/UserInterface.php:379
+msgid "Poor!"
+msgstr "Недостатній!"
+
+#: includes/Admin/Troubleshooting.php:625
+msgid "Incompatible \"Try to ajaxify the shop\" option in WOOF - WooCommerce Products Filter"
+msgstr "Несумісна опція \"Спробуйте AJAX магазин\" плагіна WOOF - WooCommerce Products Filter"
+
+#: includes/Admin/Troubleshooting.php:621
+msgid "Incompatible \"HUSKY - Advanced searching by Text\" extension in WOOF - WooCommerce Products Filter"
+msgstr "Несумісне розширення \"HUSKY - Розширений пошук по тексту\" плагіна WOOF - WooCommerce Products Filter"
+
+#: includes/Admin/Troubleshooting.php:521
+msgid "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products Filter (tab)</a> -> Options (tab)</code>, set <code>Try to ajaxify the shop</code> option to <code>No</code> and save changes."
+msgstr "Перейдіть до <code>WooCommerce -> Налаштування -> <a href=\"%s\" target=\"_blank\">Фільтр товарів (вкладка)</a> -> Параметри (вкладка)</code>, установіть <code>Спробувати змінити ajax опцію магазинаp</code> на <code>Ні</code> та зберегти зміни."
+
+#: includes/Admin/Troubleshooting.php:519
+msgid "Incompatible \"Try to ajaxify the shop\" option from WOOF - WooCommerce Products Filter plugin is enabled"
+msgstr "Несумісна опція \"Cпробуйте AJAX магазин\" увімкненого плагіна WOOF – WooCommerce Products Filter"
+
+#: includes/Admin/Troubleshooting.php:485
+msgid "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>HUSKY - Advanced searching by Text</code> extension and save changes."
+msgstr "Перейдіть до <code>WooCommerce -> Налаштування -> <a href=\"%s\" target=\"_blank\">Фільтр товарів (вкладка)</a> -> Розширення (вкладка)</code>, зніміть прапорець <code>HUSKY - розширений пошук текста</code> і збережіть зміни."
+
+#: includes/Admin/Troubleshooting.php:359
+msgid "Install the latest version of WordPress for our plugin for optimal performance!"
+msgstr "Для оптимальної продуктивності установіть останню версію WordPress для нашого плагіна!"
+
+#: includes/Abstracts/ThemeIntegration.php:94
+msgid "Search bars"
+msgstr "Панелі пошуку"
+
+#: includes/Abstracts/ThemeIntegration.php:88
+msgid "Replace them"
+msgstr "Замініть їх"
+
+#: includes/Abstracts/ThemeIntegration.php:86
+msgid "Replace your theme's default search bars."
+msgstr "Замініть початкову панель пошуку вашої теми."
+
+#: ajax-search-for-woocommerce.php:216
+msgid "%s is enabled but not effective. It is missing core files. Please reinstall the plugin."
+msgstr "%s увімкнено, але не діє. У ньому відсутні основні файли. Перевстановіть плагін."
+
+#: partials/admin/troubleshooting.php:22
+msgid "Recheck the status"
+msgstr "Перевірте статус"
+
+#: partials/admin/stats/stats.php:164 partials/admin/stats/stats.php:213
+msgid "0 searches with results"
+msgstr "0 результатів пошуку"
+
+#: partials/admin/stats/stats.php:153 partials/admin/stats/stats.php:202
+msgid "show top 100 phrases"
+msgstr "показати 100 найпопулярніших фраз"
+
+#: partials/admin/stats/stats.php:104
+msgid "returning results"
+msgstr "повернення результатів"
+
+#: partials/admin/stats/stats.php:103
+msgid "Searches"
+msgstr "Пошуки"
+
+#: partials/admin/stats/stats.php:93
+msgid "search results page"
+msgstr "сторінка результатів пошуку"
+
+#: partials/admin/stats/stats.php:82
+msgid "autocomplete"
+msgstr "результати пошуку"
+
+#: partials/admin/stats/stats.php:81 partials/admin/stats/stats.php:92
+msgid "Total searches"
+msgstr "Всього пошуків"
+
+#: partials/admin/stats/stats.php:76
+msgid "Searches stats (last %d days)"
+msgstr "Статистика пошуків (за останні %d днів)"
+
+#: partials/admin/stats/stats.php:69
+msgid "Fantastic! The FiboSearch analyzer hasn't found any critical search phrases for the last %d days."
+msgstr "Фантастичний! Аналізатор FiboSearch не знайшов жодної критичної пошукової фрази за останні %d днів."
+
+#: partials/admin/stats/stats.php:60
+msgid "<b>Varied naming convention</b> - this issue occurs when users may type a phrase in several different way – eg. you have SKU \"CB-978-8-7290\", but users might type it in a different way: \"CB978 8 7290\", \"CB/978/8/7290\", \"CB97887290\" and so on. To solve such problems, contact our <a href=\"%s\" target=\"_blank\">technical support</a>, because the solution may be different for each case."
+msgstr "<b>Різні правила іменування</b> – ця проблема виникає, коли користувачі можуть вводити фразу різними способами – наприклад, у вас є артикул \"CB-978-8-7290\", але користувачі можуть ввести його іншим способом: \"CB978 8 7290\", \"CB/978/8/7290\", \"CB97887290\" тощо. Щоб вирішити такі проблеми, зв'яжіться з нашою <a href=\"%s\" target=\"_blank\">службою технічної підтримки</a>, оскільки рішення може відрізнятися для кожного випадку."
+
+#: partials/admin/stats/stats.php:58
+msgid "<b>Synonyms</b> - if the phrase is an alternate version of any other words, add it as a synonym. Learn more about <a href=\"%s\" target=\"_blank\">the synonyms feature."
+msgstr "<b>Синоніми</b> - якщо фраза є альтернативною версією будь-яких інших слів, додайте її як синонім. Докладніше про <a href=\"%s\" target=\"_blank\">функцію синонімів."
+
+#: partials/admin/stats/stats.php:57
+msgid "<b>Adding the phrase to the product name</b> - just add the phrase to the product name, description, SKU, custom field, tag or anything else that's in your current search scope"
+msgstr "<b>Додавання фрази до назви товару</b> – просто додайте фразу до назви товару, опису, артикулу, спеціального поля, тегу чи будь-чого іншого, що є у вашій поточній області пошуку"
+
+#: partials/admin/stats/stats.php:55
+msgid "There are several ways to solve these problems. Every phrase may require a different approach. See what methods you could use:"
+msgstr "Існує кілька способів вирішення цих проблем. До кожної фрази може знадобитися різний підхід. Подивіться, які методи ви можете використовувати:"
+
+#: partials/admin/stats/stats.php:53
+msgid "How to fix it?"
+msgstr "Як це виправити?"
+
+#: partials/admin/stats/stats.php:25
+msgid "Check if it's been solved"
+msgstr "Перевірте, чи вирішено"
+
+#: partials/admin/stats/stats.php:24 partials/admin/stats/stats.php:134
+#: partials/admin/stats/stats.php:183
+msgid "Repetitions"
+msgstr "Повторення"
+
+#: partials/admin/stats/stats.php:23 partials/admin/stats/stats.php:133
+#: partials/admin/stats/stats.php:182
+msgid "Phrase"
+msgstr "Фраза"
+
+#: partials/admin/stats/stats.php:8
+msgid "Critical searches without result"
+msgstr "Критичні пошуки без результату"
+
+#: partials/admin/stats/langs.php:11
+msgid "Shows stats only for the selected language."
+msgstr "Показує статистику лише для вибраної мови."
+
+#: partials/admin/stats/langs.php:10
+msgid "Language"
+msgstr "Мова"
+
+#: partials/admin/stats/critical-searches-row.php:12
+msgid "Check"
+msgstr "Перевірте"
+
+#: includes/Settings.php:693
+msgid "Returns suggestions based on likely relevance, even though a search keyword may not exactly match. E.g if you type “ipho<b>m</b>e” you get the same results as for “iphone”. <a target=\"_blank\" href=\"%s\">Read more</a> about the fuzzy search feature."
+msgstr "Повертає результати на основі ймовірної релевантності, навіть якщо ключове слово пошуку може не зовсім збігатися. Наприклад, якщо ви введете \"ipho<b>m</b>e\", ви отримаєте ті самі результати, що й для \"iphone\". <a target=\"_blank\" href=\"%s\">Докладніше</a> про функцію нечіткого пошуку."
+
+#: includes/Analytics/UserInterface.php:418
+msgid "This phrase has been resolved! This row will disappear after refreshing the page."
+msgstr "Ця фраза була урегульована! Цей рядок зникне після оновлення сторінки."
+
+#: includes/Analytics/UserInterface.php:391
+msgid "Something went wrong"
+msgstr "Щось пішло не так"
+
+#: includes/Analytics/UserInterface.php:386
+msgid "Check the indexer status"
+msgstr "Перевірте статус індексування"
+
+#: includes/Analytics/UserInterface.php:385
+msgid "Can't check the status. The search index hasn't been completed. Go to the Indexer tab and wait until the search index is completed."
+msgstr "Не можу перевірити статус. Індексування пошуку не завершено. Перейдіть на вкладку індексування і зачекайте, доки завершиться індексування пошуку."
+
+#: includes/Analytics/UserInterface.php:380
+msgid "Still this phrase doesn't return any results. Learn how to fix it."
+msgstr "Проте ця фраза не дає результатів. Дізнайтеся, як це виправити."
+
+#: includes/Analytics/UserInterface.php:374
+msgid "Mark this phrase as resolved"
+msgstr "Позначте цю фразу як розв’язану"
+
+#: includes/Analytics/UserInterface.php:373
+msgid "Click the button below to remove this phrase from the list."
+msgstr "Натисніть кнопку нижче, щоб видалити цю фразу зі списку."
+
+#: includes/Analytics/UserInterface.php:367
+msgid "This phrase returns 1 product."
+msgid_plural "This phrase returns %d products."
+msgstr[0] "Ця фраза повертає 1 продукт."
+msgstr[1] "Ця фраза повертає %d продукта."
+msgstr[2] "Ця фраза повертає %d продуктів."
+
+#: includes/Analytics/UserInterface.php:366
+msgid "It's sorted."
+msgstr "Це відсортовано."
+
+#: includes/Analytics/UserInterface.php:365
+msgid "Perfect!"
+msgstr "Ідеально!"
+
+#: includes/Analytics/UserInterface.php:231 partials/admin/stats/stats.php:41
+msgid "load another %d phrase"
+msgid_plural "load another %d phrases"
+msgstr[0] "завантажити ще %d фразу"
+msgstr[1] "завантажити ще %d фрази"
+msgstr[2] "завантажити ще %d фраз"
+
+#: includes/Analytics/UserInterface.php:96
+msgid "Enable search analytics"
+msgstr "Увімкнути аналітику"
+
+#: includes/Analytics/UserInterface.php:90
+msgid "Search Analytics"
+msgstr "Пошукова аналітика"
+
+#: includes/Analytics/UserInterface.php:73
+msgid "Analytics (beta)"
+msgstr "Аналітика (бета)"
+
+#: includes/Settings.php:309
+msgid "(beta feature)"
+msgstr "(бета-функція)"
+
+#: includes/Settings.php:308
+msgid "Darkening the page background while autocomplete is active gives it stronger emphasis, minimizing elements (e.g., ads, carousels, and other page content) that could distract users from considering autocomplete suggestions."
+msgstr "Затемнення фону сторінки під час показу результатів пошуку посилює його акцент, мінімізуючи елементи (наприклад, оголошення, каруселі та інший вміст сторінки), які можуть відволікати користувачів від розгляду пропозицій в результатах пошуку."
+
+#: includes/Settings.php:308 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:159
+#: src/blocks/search/edit.js:144
+msgid "Darkened background"
+msgstr "Затемнений фон"
+
+#: includes/Helpers.php:1061
+msgid "Furthermore, you can override this option for a specific search bar via shortcode params. <a href=\"%s\" target=\"_blank\">Learn more about shortcodes parameters</a>."
+msgstr "Крім того, ви можете змінити цю опцію для певної панелі пошуку за допомогою параметрів короткого коду. <a href=\"%s\" target=\"_blank\">Докладніше про параметри коротких кодів</a>."
+
+#: includes/Helpers.php:1060
+msgid "This option is <b>overridden</b> by the seamless integration with the %s theme. If you want to change the value of this option, disable the integration in <br /><b>WooCommerce -> FiboSearch -> Starting (tab)</b>."
+msgstr "Ця опція <b>перевизначена</b> бездоганною інтеграцією з темою %s. Якщо ви хочете змінити значення цього параметра, вимкніть інтеграцію в <br /><b>WooCommerce -> FiboSearch -> Початок (вкладка)</b>."
+
+#: includes/Admin/Troubleshooting.php:629
+msgid "Elementor search results template"
+msgstr "Elementor шаблон результатів пошуку"
+
+#: includes/Admin/Troubleshooting.php:583
+msgid "If you think the search results page is displaying your products correctly, you can ignore and dismiss this message: %s"
+msgstr "Якщо ви вважаєте, що на сторінці результатів пошуку ваші товари відображаються правильно, ви можете проігнорувати та відхилити це повідомлення: %s"
+
+#: includes/Admin/Troubleshooting.php:581
+msgid "Add <strong>Archive Products</strong> widget to the template <strong>%s</strong> or create a new template dedicated to the WooCommerce search results page. Learn how to do it in <a href=\"%s\" target=\"_blank\">our documentation</a>."
+msgstr "Додайте віджет <strong>Архів товарів</strong> до шаблону <strong>%s</strong> або створіть новий шаблон, призначений для сторінки результатів пошуку WooCommerce. Дізнайтесь, як це зробити, в <a href=\"%s\" target=\"_blank\">нашій документації</a>."
+
+#: includes/Admin/Troubleshooting.php:579
+msgid "You are using Elementor and we noticed that the template used in the search results page titled <strong>%s</strong> does not include the <strong>Archive Products</strong> widget."
+msgstr "Ви використовуєте Elementor, і ми помітили, що шаблон <strong>%s</strong>, який використовується на сторінці результатів пошуку, не містить віджет <strong>Архів товарів</strong>."
+
+#: includes/Admin/Troubleshooting.php:578
+msgid "There is no correct template in the Elementor Theme Builder for the WooCommerce search results page."
+msgstr "У конструкторі тем Elementor немає правильного шаблону для сторінки результатів пошуку WooCommerce."
+
+#: includes/Admin/Troubleshooting.php:572
+msgid "Dismiss"
+msgstr "Відхилити"
+
+#: includes/Settings.php:635
+msgid "Filters that specify the product group and taxonomy that will be affected by the above mode"
+msgstr "Фільтри, які вказують групу товарів і таксономію, на яку впливатиме вищезазначений режим"
+
+#: includes/Settings.php:627
+msgid "Include"
+msgstr "Включати"
+
+#: includes/Settings.php:626
+msgid "Exclude"
+msgstr "Виключити"
+
+#: includes/Settings.php:619
+msgid "Exclude the product group from the search results or allow search only among the indicated product group."
+msgstr "Виключити групу товарів з результатів пошуку або дозволити пошук лише серед зазначеної групи товарів."
+
+#: includes/Settings.php:617
+msgid "Filtering mode"
+msgstr "Режим відбору"
+
+#: includes/Settings.php:611
+msgid "Exclude/include products"
+msgstr "Виключити/включити відбор продуктів"
+
+#: includes/Integrations/Brands.php:229 includes/Integrations/Brands.php:233
+#: includes/Settings.php:445 includes/Settings.php:449
+msgid "show images"
+msgstr "показати зображення"
+
+#. Author of the plugin
+msgid "FiboSearch Team"
+msgstr "Команда FiboSearch"
+
+#: includes/Admin/Troubleshooting.php:305
+msgid "Is your website publicly available only for whitelisted IPs? <b>Add your server IP to the whitelist</b>. That’s all. This is a common mistake when access is blocked by a <code>.htaccess</code> file. Developers add a list of allowed IPs, but they forget to add the IP of the server to allow it to make HTTP requests to itself."
+msgstr "Ваш сайт загальнодоступний лише для IP-адрес із білого списку? <b>Додайте IP-адресу свого сервера до білого списку</b>. Це все. Це поширена помилка, коли доступ блокується файлом <code>.htaccess</code>. Розробники додають список дозволених IP-адрес, але вони забувають додати IP-адресу сервера, щоб дозволити йому робити HTTP-запити самому собі."
+
+#: includes/Admin/Troubleshooting.php:304
+msgid "Go to <a href=\"%s\" target=\"_blank\">Tools -> Site Health</a> in your WordPress. You should see issues related to REST API or Loopback request. Expand descriptions of these errors and follow the instructions. Probably you will need to contact your hosting provider to solve it."
+msgstr "Перейдіть до <a href=\"%s\" target=\"_blank\">Інструменти -> Здоров'я сайту</a> у своєму WordPress. Ви повинні побачити проблеми, пов'язані з REST API або запитом Loopback. Розгорніть описи цих помилок і дотримуйтесь інструкцій. Ймовірно, вам доведеться звернутися до свого хостинг-провайдера, щоб вирішити цю проблему."
+
+#: includes/Admin/Troubleshooting.php:303
+msgid "Your server can't send an HTTP request to itself"
+msgstr "Ваш сервер не може надіслати HTTP-запит самому собі"
+
+#: includes/Settings.php:684
+msgid "Schedule time"
+msgstr "Розклад часу"
+
+#: includes/Settings.php:138
+msgid "with simple tricks"
+msgstr "невеликими хитрощами"
+
+#: includes/EmbeddingViaMenu.php:150
+msgid "Add FiboSearch as a menu item."
+msgstr "Додайте FiboSearch в якості пункта меню."
+
+#: includes/Integrations/Themes/DFDRonneby/DFDRonneby.php:18
+msgid "Note: We currently only support the header type: \"Header 10\""
+msgstr "Примітка. Зараз ми підтримуємо лише тип заголовка: \"Заголовок 10\""
+
+#: includes/Admin/Troubleshooting.php:637
+msgid "TranslatePress"
+msgstr "TranslatePress"
+
+#: includes/Admin/Troubleshooting.php:254
+msgid "Due to the way the TranslatePress - Multilingual plugin works, we can only provide support for it in the <a href=\"%s\" target=\"_blank\">Pro version</a>."
+msgstr "Через те, як працює плагін TranslatePress – Multilingual, ми можемо забезпечити його підтримку лише в <a href=\"%s\" target=\"_blank\">версії Pro</a>."
+
+#: includes/Admin/Troubleshooting.php:245
+msgid "You are using TranslatePress with Free version of our plugin"
+msgstr "Ви використовуєте TranslatePress із безкоштовною версією нашого плагіна"
+
+#: includes/Admin/Troubleshooting.php:222
+#: includes/Admin/Troubleshooting.php:226
+msgid "You are using the %s plugin. The %s does not support this plugin."
+msgstr "Ви використовуєте плагін %s. %s не підтримує цей плагін."
+
+#: includes/Admin/Promo/Upgrade.php:54
+msgid "FiboSearch Pro - Upgrade Now"
+msgstr "FiboSearch Pro – оновіть зараз"
+
+#: includes/Admin/Promo/Upgrade.php:52
+msgid "Individual tips and support from the FiboSearch team"
+msgstr "Індивідуальні поради та підтримка від команди FiboSearch"
+
+#: includes/Admin/Promo/Upgrade.php:48
+msgid "Modern search engine based on an inverted index and advanced matching algorithms"
+msgstr "Сучасна пошукова система на основі інвертованого індексу та вдосконалених алгоритмів відповідності"
+
+#: includes/Admin/AdminMenu.php:40 includes/Admin/AdminMenu.php:41
+msgid "FiboSearch"
+msgstr "Fibo пошук"
+
+#: ajax-search-for-woocommerce.php:198
+msgid "%s is enabled but not effective. It requires %s in order to work."
+msgstr "%s увімкнено, але не діє. Для роботи потрібен %s."
+
+#: ajax-search-for-woocommerce.php:180
+msgid "%s: You need PHP version at least 7.0 to run this plugin. You are currently using PHP version %s."
+msgstr "%s: Щоб запустити цей плагін Вам потрібен PHP версії принаймні 7.0. Зараз ви використовуєте PHP версії %s."
+
+#: includes/EmbeddingViaMenu.php:55 includes/EmbeddingViaMenu.php:156
+#: widget.php:26
+msgid "FiboSearch bar"
+msgstr "Панель FiboSearch"
+
+#: partials/admin/how-to-use.php:18
+msgid "Using PHP - %s"
+msgstr "Скористайтеся PHP - %s"
+
+#: partials/admin/settings.php:27 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:92
+#: src/blocks/search/edit.js:77
+msgid "Settings"
+msgstr "Налаштування"
+
+#. Plugin Name of the plugin
+msgid "FiboSearch - AJAX Search for WooCommerce"
+msgstr "FiboSearch - AJAX Search for WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:761
+msgid "Server environment"
+msgstr "Серверне середовище"
+
+#: includes/Admin/SettingsAPI.php:632
+msgid "Add new rule"
+msgstr "Додайте нову групу"
+
+#: includes/Admin/SettingsAPI.php:627
+msgid "No rules"
+msgstr "Немає відібраних груп"
+
+#: includes/Settings.php:633
+msgid "Filters"
+msgstr "Відбір груп товарів"
+
+#: includes/Helpers.php:1182
+msgid "Sold by:"
+msgstr "Продавець:"
+
+#: includes/Helpers.php:1179
+msgid "Vendors"
+msgstr "Продавці"
+
+#: includes/Helpers.php:1175
+msgid "Vendor"
+msgstr "Продавець"
+
+#: includes/Admin/Troubleshooting.php:617
+msgid "Incompatible \"Searching by Text\" extension in WOOF - WooCommerce Products Filter"
+msgstr "Несумісне розширення \"Пошук по тексту\" плагіну WOOF - WooCommerce Products Filter"
+
+#: includes/Admin/Troubleshooting.php:440
+#: includes/Admin/Troubleshooting.php:486
+msgid "Extensions should looks like the picture below:"
+msgstr "Розширення мають виглядати так, як на малюнку нижче:"
+
+#: includes/Admin/Troubleshooting.php:439
+msgid "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products Filter (tab)</a> -> Extensions (tab)</code>, uncheck <code>Searching by Text</code> extension and save changes."
+msgstr "Перейдіть до <code>WooCommerce -> Налаштування -> <a href=\"%s\" target=\"_blank\">Фільтр товарів (вкладка)</a> -> Розширення (вкладка)</code>, зніміть прапорець <code>Пошук по тексту</code> і збережіть зміни."
+
+#: includes/Admin/Troubleshooting.php:483
+msgid "Incompatible \"HUSKY - Advanced searching by Text\" extension from \"WOOF - WooCommerce Products Filter plugin\" is active"
+msgstr "Несумісне розширення \"HUSKY – Розширений пошук по тексту\" плагіну \"WOOF – WooCommerce Products Filter\" активне"
+
+#: includes/EmbeddingViaMenu.php:86 includes/Settings.php:232
+#: includes/Settings.php:284
+msgid "Search icon color"
+msgstr "Колір іконки пошуку"
+
+#: includes/Admin/Troubleshooting.php:609
+msgid "Incompatible plugins"
+msgstr "Несумісні плагіни"
+
+#: includes/Admin/Troubleshooting.php:605
+msgid "PHP extensions"
+msgstr "Розширення PHP"
+
+#: includes/Admin/Troubleshooting.php:394
+msgid "Your settings should look like the picture below:"
+msgstr "Ваші налаштування мають виглядати як на малюнку нижче:"
+
+#: includes/Admin/Troubleshooting.php:389
+msgid "Go to <code>WooCommerce -> Settings -> <a href=\"%s\" target=\"_blank\">Products (tab)</a></code> and check option <code>%s</code> and uncheck option <code>%s</code>."
+msgstr "Перейдіть до <code>WooCommerce -> Налаштування -> <a href=\"%s\" target=\"_blank\">Товари (вкладка)</a></code> та позначте опцію <code>%s</code> і зніміть позначку з опції <code>%s</code>."
+
+#: includes/Admin/Troubleshooting.php:387
+#: includes/Admin/Troubleshooting.php:438
+#: includes/Admin/Troubleshooting.php:484
+#: includes/Admin/Troubleshooting.php:520
+#: includes/Admin/Troubleshooting.php:580
+msgid "Solution"
+msgstr "Рішення"
+
+#: includes/Admin/Troubleshooting.php:386
+#: includes/Admin/Troubleshooting.php:613
+msgid "Incorrect \"Add to cart\" behaviour in WooCommerce settings"
+msgstr "Неправильна поведінка \"Додати в кошик\" у налаштуваннях WooCommerce"
+
+#: includes/Admin/Troubleshooting.php:384
+msgid "Enable AJAX add to cart buttons on archives"
+msgstr "Увімкнути AJAX-кнопки додавання в корзину в архівах"
+
+#: includes/Admin/Troubleshooting.php:383
+msgid "Redirect to the cart page after successful addition"
+msgstr "Перенаправляти до кошика після успішного додавання"
+
+#: includes/Admin/Troubleshooting.php:356
+msgid "Great! Our plugin works great with this version of WordPress."
+msgstr "Чудово! Наш плагін гарно працює з цією версією WordPress."
+
+#: includes/Admin/Troubleshooting.php:347
+#: includes/Admin/Troubleshooting.php:601
+msgid "WordPress version"
+msgstr "Версія WordPress"
+
+#: includes/Admin/Troubleshooting.php:320
+msgid "One or more required PHP extensions are missing on your server"
+msgstr "На вашому сервері відсутнє одне або кілька необхідних розширень PHP"
+
+#: includes/Admin/Troubleshooting.php:302
+msgid "Solutions:"
+msgstr "Рішення:"
+
+#: includes/Admin/Troubleshooting.php:301
+msgid "Your site could not complete a loopback request"
+msgstr "Вашому сайту не вдалося виконати запит на зворотний зв’язок"
+
+#: includes/Admin/Troubleshooting.php:267
+msgid "Your site can perform loopback requests"
+msgstr "Ваш сайт може виконувати запити на зворотній зв’язок"
+
+#: includes/Admin/Troubleshooting.php:213
+msgid "You are using one or more incompatible plugins"
+msgstr "Ви використовуєте один або кілька несумісних плагінів"
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:35
+msgid "Warning!"
+msgstr "УВАГА!"
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:30
+msgid "Go to <code>Appearance -> <a target=\"_blank\" href=\"%s\">Customize</a> -> Header -> Search</code> and enable <code>Predictive Search</code>"
+msgstr "Перейдіть до <code>Вигляд -> <a target=\"_blank\" href=\"%s\">Налаштувати</a> -> Заголовок -> Пошук</code> і ввімкніть <code>Інтелектуальний пошук</code>"
+
+#: includes/Integrations/Themes/Shopkeeper/Shopkeeper.php:29
+msgid "To replace the search bar you have to enable the \"Predictive Search\" option in the Shopkeeper settings."
+msgstr "Щоб замінити панель пошуку, вам потрібно ввімкнути опцію \"Інтелектуальний пошук\" у налаштуваннях продавця."
+
+#: partials/themes/salient.php:21
+msgid "Hit enter to search or ESC to close"
+msgstr "Натисніть Enter для пошуку або ESC, щоб закрити"
+
+#: partials/admin/troubleshooting.php:18
+msgid "Great! We have not detected any problems that could affect the correct functioning of our plugin."
+msgstr "Чудово! Ми не виявили жодних проблем, які могли б вплинути на правильну роботу нашого плагіна."
+
+#: partials/admin/troubleshooting.php:11
+msgid "Processing asynchronous tests..."
+msgstr "Обробка асинхронних тестів..."
+
+#: includes/Settings.php:276 includes/Settings.php:300
+msgid "px"
+msgstr "px"
+
+#: includes/Settings.php:292
+msgid "The search will open as an overlay on mobile"
+msgstr "Панель пошуку покриє весь екран мобільного"
+
+#: includes/Settings.php:291 widget.php:48 build/blocks/search-nav/index.js:1
+#: build/blocks/search/index.js:1 src/blocks/search-nav/edit.js:173
+#: src/blocks/search/edit.js:158
+msgid "Overlay on mobile"
+msgstr "Покрити весь екран"
+
+#: includes/Integrations/Themes/Impreza/Impreza.php:18
+msgid "Here is <a href=\"%s\" target=\"_blank\">article</a> about how to do it using Impreza child-theme."
+msgstr "Ось <a href=\"%s\" target=\"_blank\">стаття</a> про те, як це зробити за допомогою дочірньої теми Impreza."
+
+#: includes/Abstracts/ThemeIntegration.php:72
+msgid "%s Theme"
+msgstr "Тема %s"
+
+#: includes/Abstracts/ThemeIntegration.php:63
+msgid "Replace the search bars"
+msgstr "Замініть панелі пошуку"
+
+#: includes/EmbeddingViaMenu.php:74 includes/Settings.php:262 widget.php:43
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:109 src/blocks/search/edit.js:94
+msgid "Layout"
+msgstr "Макет"
+
+#: includes/EmbeddingViaMenu.php:189 includes/Settings.php:267 widget.php:40
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:127 src/blocks/search/edit.js:112
+msgid "Icon on mobile, search bar on desktop"
+msgstr "Іконка на мобільному, панель пошуку на комп’ютері"
+
+#: includes/EmbeddingViaMenu.php:188 includes/Settings.php:266 widget.php:39
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:120 src/blocks/search/edit.js:105
+msgid "Search icon"
+msgstr "Іконка пошуку"
+
+#: includes/EmbeddingViaMenu.php:186 widget.php:37
+msgid "Default"
+msgstr "Початковий"
+
+#: includes/Admin/RegenerateImages.php:175
+msgid "Regeneration of images started. The process will continue in the background."
+msgstr "Розпочато створення зображень. Процес триватиме у фоновому режимі."
+
+#: includes/Admin/RegenerateImages.php:96
+msgid "%s: it is recommended to generate a special small image size for existing products to ensure a better user experience. This is a one-time action. <br /><br />You can do it by clicking %s or use an external plugin such as %s."
+msgstr "%s: рекомендується створити спеціальні зображення невеликого розміру існуючих товарів, для покращення сприйняття користувачеві. Це одноразова дія. <br /><br />Ви можете зробити це, натиснувши %s, або використати зовнішній плагін, наприклад %s."
+
+#: includes/Admin/RegenerateImages.php:94
+msgid "Regenerate WooCommerce images"
+msgstr "Відновити зображення WooCommerce"
+
+#: partials/admin/search-preview.php:257
+msgid "Add to cart"
+msgstr "Додати в кошик"
+
+#: partials/admin/how-to-use.php:21
+msgid "Are there any difficulties? <b>We will do it for you!</b> We offer free of charge search bar implementation for Pro users. <a target=\"_blank\" href=\"%s\">Become one now!</a>"
+msgstr "Маєте труднощі? <b>Можемо зробити це за Вас!</b> Пропонуємо безкоштовну реалізацію панелі пошуку для користувачів версії Pro. <a target=\"_blank\" href=\"%s\">Стань ним зараз!</a>"
+
+#: partials/admin/how-to-use.php:16
+msgid "Using a shortcode - %s"
+msgstr "Розмістіть короткий код - %s"
+
+#: partials/admin/features.php:30
+msgid "Individual customization of the search bar (simple CSS improvements)"
+msgstr "Індивідуальне налаштування панелі пошуку (прості CSS вдосконалення)"
+
+#: partials/admin/features.php:28
+msgid "Search for posts and pages"
+msgstr "Пошук дописів та сторінок"
+
+#: partials/admin/features.php:27
+msgid "Search in brands (WooCommerce Brands or YITH WooCommerce Brands)"
+msgstr "Пошук у брендах (бренди WooCommerce або YITH WooCommerce)"
+
+#: partials/admin/features.php:26
+msgid "Search by variation product SKU"
+msgstr "Пошук за артикулом модифікації товару"
+
+#: partials/admin/features.php:20
+msgid "Professional and fast <b>help to embed</b> or <b>replacing</b> the search bar in your theme"
+msgstr "Професійна та швидка <b>вбудована допомога</b> або <b>заміна</b> панелі пошуку у вашій темі"
+
+#: partials/admin/features.php:19
+msgid "<b>New Ultra-Fast Search Engine</b> – works very fast even with 100,000+ products "
+msgstr "<b>Нова надшвидка пошукова система</b> – працює дуже швидко навіть із понад 100 000+ товарів "
+
+#: partials/admin/features.php:16
+msgid "Update now and boost your sales. You will receive a <b>30-day satisfaction guarantee</b>.  A return on investment will come very quickly."
+msgstr "Оновіть зараз і збільште продажі. Ви отримаєте <b>30-денний пробний період</b>. Витрати окупляться дуже швидко."
+
+#: includes/Helpers.php:1185
+msgid "continue reading"
+msgstr "продовжити читання"
+
+#: includes/Settings.php:606
+msgid "Synonyms should be separated by a comma. Each new synonyms group is entered in a new line. You can use a phrase instead of a single word. <br /> <br />Sample list:<br /> <br /><span class=\"dgwt-wcas-synonyms-sample\">sofa, couch, davenport, divan, settee<br />big, grand, great, large, outsize</span>"
+msgstr "Синоніми слід розділяти комою. Кожна нова група синонімів вводиться в новому рядку. Ви можете використовувати фразу замість одного слова. <br /> <br />Приклад переліку:<br /> <br /><span class=\"dgwt-wcas-synonyms-sample\">софа, кушетка, девенпорт, диван, канапа<br />крупний, грандіозний, великий, довгий, негабаритний</span>"
+
+#: includes/Admin/Promo/Upgrade.php:50 includes/Settings.php:598
+#: includes/Settings.php:604 partials/admin/features.php:29
+msgid "Synonyms"
+msgstr "Синоніми"
+
+#: includes/Settings.php:572 partials/admin/features.php:25
+msgid "Search in tags"
+msgstr "В тегах"
+
+#. Description of the plugin
+msgid "The most popular WooCommerce product search. Gives your users a well-designed advanced AJAX search bar with live search suggestions."
+msgstr "Найпопулярніший пошук товарів WooCommerce. Надає вашим користувачам добре розроблену розширену панель пошуку AJAX із пропозиціями пошуку в реальному часі."
+
+#: includes/EmbeddingViaMenu.php:178
+msgid "FiboSearch bar will be displayed here."
+msgstr "Тут відображатиметься панель FiboSearch."
+
+#: includes/EmbeddingViaMenu.php:166 includes/EmbeddingViaMenu.php:167
+msgid "Add to menu"
+msgstr "Додати в меню"
+
+#: includes/Settings.php:678
+msgid "weekly"
+msgstr "щотижня"
+
+#: includes/Settings.php:677
+msgid "daily"
+msgstr "щодня"
+
+#: includes/Settings.php:673
+msgid "Interval"
+msgstr "Інтервал"
+
+#: includes/Settings.php:665
+msgid "In most cases, you don't need to use the scheduler because the search index updates when you edit products. If you use import tools or custom code to refresh prices or bulk add/edit products, the indexing scheduler will be helpful."
+msgstr "У більшості випадків вам не потрібно використовувати планувальник, оскільки пошуковий індекс оновлюється, коли ви редагуєте продукти. Якщо ви використовуєте інструменти імпорту або спеціальний код для оновлення цін або масового додавання/редагування продуктів, планувальник індексування буде корисним."
+
+#: includes/Settings.php:665
+msgid "Enable Scheduler"
+msgstr "Увімкнути планувальник"
+
+#: includes/Settings.php:659
+msgid "Scheduling indexing"
+msgstr "Планування індексації"
+
+#: includes/Settings.php:177
+msgid "How to add?"
+msgstr "Як додати?"
+
+#: partials/admin/how-to-use.php:15
+msgid "Menu Screen"
+msgstr "Налаштування меню"
+
+#: partials/admin/how-to-use.php:15
+msgid "As a menu item - go to the %s and add the menu item “FiboSearch bar”. Done!"
+msgstr "Додайте пункт меню - перейдіть до %s і додайте пункт меню \"Панель FiboSearch\". Готово!"
+
+#: includes/Settings.php:692
+msgid "Increases sales conversions."
+msgstr "Збільшує конверсії продажів."
+
+#: includes/Settings.php:565 partials/admin/features.php:24
+msgid "Search in categories"
+msgstr "В категоріях"
+
+#: includes/Settings.php:490
+msgid "Suggestions colors"
+msgstr "Кольори панели результатів пошуку"
+
+#: includes/Settings.php:483
+msgid "Show Details panel"
+msgstr "Показати панель “Деталі”"
+
+#: includes/Settings.php:477
+msgid "Details panel"
+msgstr "Панель \"Деталі\""
+
+#: includes/Settings.php:470
+msgid "Show pages"
+msgstr "Показати сторінки"
+
+#: includes/Settings.php:463
+msgid "Show posts"
+msgstr "Показати дописи"
+
+#: includes/Settings.php:455
+msgid "Show tags"
+msgstr "Показати теги"
+
+#: includes/Settings.php:437
+msgid "Show categories"
+msgstr "Показати категорії"
+
+#: includes/Settings.php:431
+msgid "Non-products in autocomplete"
+msgstr "Не товари в результатах пошуку"
+
+#: includes/Settings.php:425
+msgid "More results label"
+msgstr "Мітка \"Більше результатів\""
+
+#: includes/Settings.php:388
+msgctxt "admin"
+msgid "No results label"
+msgstr "Мітка \"Немає результатів\""
+
+#: includes/Settings.php:380
+msgid "Group results"
+msgstr "Групування результату"
+
+#: includes/Settings.php:372
+msgid "Limit"
+msgstr "Обмеження"
+
+#: includes/Settings.php:196
+msgid "Min characters to show autocomplete"
+msgstr "Мінімальна кількість символів для показу в результатах пошуку"
+
+#: includes/Settings.php:171
+msgid "How to add search bar in your theme?"
+msgstr "Як додати панель пошуку до своєї теми?"
+
+#: includes/Settings.php:133
+msgid "Indexer"
+msgstr "Індексування"
+
+#: includes/Settings.php:110
+msgid "Search config"
+msgstr "Конфігурація пошуку"
+
+#: includes/Settings.php:98
+msgid "Starting"
+msgstr "Початок"
+
+#: includes/Helpers.php:1183
+msgid "Featured"
+msgstr "Обрані"
+
+#: includes/Helpers.php:1181
+msgid "Sale"
+msgstr "Розпродаж"
+
+#: includes/Abstracts/ThemeIntegration.php:103
+msgid "Alternative ways to embed a search bar"
+msgstr "Альтернативні способи вставлення панелі пошуку"
+
+#: includes/Integrations/Brands.php:219
+msgid "Show brands"
+msgstr "Показати бренди"
+
+#: partials/admin/embedding-in-theme.php:23
+msgid "We support this theme so you can easily replace all default search bars."
+msgstr "Ми підтримуємо цю тему, тому ви можете легко замінити всі початкові панелі пошуку."
+
+#: partials/admin/embedding-in-theme.php:22
+msgid "You are using the <b>%s</b> theme%s. Fantastic!"
+msgstr "Ви використовуєте <b>%s</b> теми %s. Фантастично!"
+
+#: partials/admin/embedding-in-theme.php:18
+msgid "child theme of <b>%s</b>"
+msgstr "дочірня тема <b>%s</b>"
+
+#: partials/admin/search-preview.php:232
+msgid "Sample product name"
+msgstr "Назва зразка товару"
+
+#: partials/admin/search-preview.php:198 partials/admin/search-preview.php:243
+msgid "Lorem <strong>ipsum</strong> dolor sit amet, consectetur adipiscing elit. Quisque gravida lacus nec diam porttitor pharetra. Nulla facilisi. Proin pharetra imperdiet neque, non varius."
+msgstr "Важливо, щоб клієнт був <strong>задоволений</strong>, а за клієнтом йшли інші. Всі мріють про озеро, а поромної переправи немає. Немає нічого легкого. Він не інвестував в казино."
+
+#: includes/Helpers.php:1180
+msgid "SKU"
+msgstr "Артикул"
+
+#: partials/admin/search-preview.php:196
+msgid "Sample product <strong>name</strong>"
+msgstr "<strong>Назва</strong> зразка товару"
+
+#: includes/Helpers.php:1176 includes/Settings.php:394
+msgid "Products"
+msgstr "Товари"
+
+#: partials/admin/search-preview.php:180
+msgid "Sample page <strong>name</strong>"
+msgstr "<strong>Назва</strong> зразка сторінки"
+
+#: includes/Helpers.php:1174
+msgid "Page"
+msgstr "Сторінка"
+
+#: includes/Helpers.php:1178
+msgid "Pages"
+msgstr "Cторінки"
+
+#: partials/admin/search-preview.php:167
+msgid "Sample post <strong>name</strong>"
+msgstr "<strong>Назва</strong> зразка допису"
+
+#: includes/Helpers.php:1173
+msgid "Post"
+msgstr "Допис"
+
+#: includes/Helpers.php:1177
+msgid "Posts"
+msgstr "Дописи"
+
+#: partials/admin/search-preview.php:154
+msgid "Sample tag <strong>name</strong>"
+msgstr "<strong>Назва</strong> зразка тегу"
+
+#: includes/Engines/WordPressNative/Search.php:949
+msgid "Tags"
+msgstr "Теги"
+
+#: partials/admin/search-preview.php:141
+msgid "Sample category <strong>name</strong>"
+msgstr "<strong>Назва</strong> зразка категорії"
+
+#: includes/Engines/WordPressNative/Search.php:947
+msgid "Categories"
+msgstr "Категорії"
+
+#: partials/admin/search-preview.php:125
+msgid "Sample brand <strong>name</strong>"
+msgstr "<strong>Назва</strong> зразка бренду"
+
+#: includes/Integrations/Brands.php:322
+msgid "Brands"
+msgstr "Бренди"
+
+#: includes/Settings.php:106 partials/admin/search-preview.php:23
+msgid "Autocomplete"
+msgstr "Результати пошуку"
+
+#: includes/EmbeddingViaMenu.php:187 includes/EmbeddingViaMenu.php:248
+#: includes/Settings.php:102 includes/Settings.php:265
+#: partials/admin/search-preview.php:22 widget.php:38
+#: build/blocks/search-nav/index.js:1 build/blocks/search/index.js:1
+#: src/blocks/search-nav/edit.js:113 src/blocks/search/edit.js:98
+msgid "Search bar"
+msgstr "Панель пошуку"
+
+#: partials/admin/search-preview.php:21
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: includes/Helpers.php:1187 includes/Helpers.php:1188
+#: includes/Settings.php:427
+msgid "See all products..."
+msgstr "Переглянути всі товари ..."
+
+#: partials/admin/settings.php:32 partials/admin/settings.php:34
+msgid "Show advanced settings"
+msgstr "Розширені налаштування"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://fibosearch.com?utm_source=wp-admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc"
+msgstr "https://fibosearch.com?utm_source=wp-admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc"
+
+#: partials/admin/how-to-use.php:17
+msgid "As a widget - go to the %s and choose “FiboSearch bar”"
+msgstr "Додайте віджет - перейдіть до %s і виберіть «Панель FiboSearch»"
+
+#: partials/admin/how-to-use.php:13
+msgid "There are four easy ways to display the search bar in your theme"
+msgstr "Існує чотири простих способи відобразити панель пошуку у вашій темі"
+
+#: includes/Integrations/Brands.php:192 includes/Integrations/Brands.php:214
+msgid "Based on the plugin %s"
+msgstr "На основі плагіна %s"
+
+#: includes/Integrations/Brands.php:197
+msgid "Search in brands"
+msgstr "В брендах"
+
+#: includes/Settings.php:579 partials/admin/features.php:22
+msgid "Search in custom fields"
+msgstr "В користувацких полях"
+
+#: includes/Settings.php:533
+msgid "Products search scope"
+msgstr "Область пошуку товарів"
+
+#: includes/Admin/Promo/Upgrade.php:63 partials/admin/features.php:31
+msgid "See a comparison of all free and premium features!"
+msgstr "Перегляньте порівняння всіх безкоштовних і преміальних функцій!"
+
+#: includes/Admin/SettingsAPI.php:776
+msgid "Showcase"
+msgstr "Демонстрація"
+
+#: includes/Integrations/Brands.php:323
+msgid "Brand"
+msgstr "Бренд"
+
+#: includes/Settings.php:553
+msgid "Searching in variable products SKU is available only in <a target=\"_blank\" href=\"%s\">the pro version</a>."
+msgstr "Пошук серед артикулів модифікацій товарів доступний лише в <a target=\"_blank\" href=\"%s\">версії Pro</a>."
+
+#: partials/admin/indexer-header-demo.php:16
+msgid "Show details"
+msgstr "Показати деталі"
+
+#: partials/admin/indexer-header-demo.php:11
+msgid "The search index does not exist yet. Build it now."
+msgstr "Індекс пошуку ще не існує. Побудуйте це зараз."
+
+#: partials/admin/features.php:33
+msgid "Upgrade Now!"
+msgstr "Оновити зараз!"
+
+#: partials/admin/features.php:31
+msgid "And more..."
+msgstr "І більше..."
+
+#: partials/admin/features.php:14
+msgid "If users can’t find the product they’re searching for, they can’t buy it. Help your customers to find the right products even <span>10× faster</span>."
+msgstr "Якщо користувачі не можуть знайти товар, який вони шукають, вони не можуть його купити. Допоможіть своїм клієнтам знаходити потрібні товари ще <span>в 10 разів швидше</span>."
+
+#: includes/Settings.php:715
+msgid "Index status"
+msgstr "Статус індексу"
+
+#: includes/Settings.php:708
+msgid "Hard"
+msgstr "Жорсткий"
+
+#: includes/Settings.php:707
+msgid "Normal"
+msgstr "Нормальний"
+
+#: includes/Settings.php:706
+msgid "Soft"
+msgstr "М’який"
+
+#: includes/Settings.php:705
+msgid "-- Disabled"
+msgstr "— Вимкнено"
+
+#: includes/Settings.php:700
+msgid "Fuzzy matching"
+msgstr "Неточний результат"
+
+#: includes/Settings.php:653
+msgid "Speed up search!"
+msgstr "Прискорити пошук!"
+
+#: includes/Settings.php:592
+msgid "Fuzziness"
+msgstr "Неточність"
+
+#: includes/Settings.php:647
+msgid "Pro features"
+msgstr "Функції Pro"
+
+#: includes/Settings.php:558 partials/admin/features.php:23
+msgid "Search in attributes"
+msgstr "В характеристиках"
+
+#: includes/Settings.php:553
+msgid "searching also in variable products SKU"
+msgstr "пошук також серед артикулів модифікацій товарів"
+
+#: includes/Settings.php:551
+msgid "Search in SKU"
+msgstr "Серед артикулів"
+
+#: includes/Settings.php:545
+msgid "Search in short description"
+msgstr "В коротких описах"
+
+#: includes/Settings.php:539
+msgid "Search in description"
+msgstr "В описах товарів"
+
+#: includes/Settings.php:138
+msgid "Increase sales"
+msgstr "Збільшення продажів"
+
+#: includes/Admin/Troubleshooting.php:328
+msgid "Required PHP extension: %s"
+msgstr "Необхідне розширення PHP: %s"
+
+#: includes/Admin/Promo/Upgrade.php:65
+msgid "Upgrade Now"
+msgstr "Оновити зараз"
+
+#: includes/Admin/Promo/Upgrade.php:58
+msgid "Update now and increase your sales. You will receive a 30-day satisfaction guarantee.  A return on investment will come very quickly."
+msgstr "Оновіть зараз і збільште продажі. Ви отримаєте 30-денний пробний період. Витрати окупляться дуже швидко."
+
+#: includes/Admin/Promo/Upgrade.php:63
+msgid "and more..."
+msgstr "і більше..."
+
+#: includes/Admin/Promo/Upgrade.php:51
+msgid "Search in attributes and variation products SKUs (option)"
+msgstr "Пошук у характеристиках і артикулах модифікацій товарів (опція)"
+
+#: includes/Admin/Promo/Upgrade.php:49 partials/admin/features.php:21
+msgid "Fuzzy search"
+msgstr "Неточний пошук"
+
+#: includes/Admin/Promo/Upgrade.php:47
+msgid "Speed up search! (even 10× faster) - users love it!"
+msgstr "Прискорити пошук! (Навіть у 10 разів швидше) - користувачам подобається!"
+
+#: includes/Admin/SettingsAPI.php:774
+msgid "Contact"
+msgstr "Підтримка"
+
+#: includes/Helpers.php:1184
+msgctxt "in categories fe. in Books > Crime stories"
+msgid "in"
+msgstr "у"
+
+#: partials/admin/indexer-header-demo.php:15
+msgid "Build index"
+msgstr "Побудувати індекс"
+
+#: includes/Settings.php:204
+msgid "To set 100% width leave blank"
+msgstr "Щоб встановити 100% ширини, залиште порожнім"
+
+#: includes/Settings.php:201
+msgid "Max form width"
+msgstr "Максимальна ширина форми"
+
+#: includes/Helpers.php:647 includes/Helpers.php:650
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/Admin/Troubleshooting.php:49 includes/Admin/Troubleshooting.php:68
+msgid "Troubleshooting"
+msgstr "Вирішення проблем"
+
+#: includes/Admin/Promo/FeedbackNotice.php:86
+msgid "No thanks"
+msgstr "Ні, дякую"
+
+#: includes/Admin/Promo/FeedbackNotice.php:82
+msgid "Review %s"
+msgstr "Відгук %s"
+
+#: includes/Admin/Promo/FeedbackNotice.php:76
+msgid "The FiboSearch team have spent countless hours developing it, and it would mean a lot to me if you %ssupport it with a quick review on WordPress.org.%s"
+msgstr "Команда FiboSearch витратила незліченну кількість годин на розробку, і для мене це буде дуже важливо, якщо ви %s підтримаєте її відгуком на WordPress.org. %s"
+
+#: includes/Admin/Promo/FeedbackNotice.php:71
+msgid "Hey %s, it's Damian Góra from %s. You have used this free plugin for some time now, and I hope you like it!"
+msgstr "Привіт, %s, це Деміан Гура з %s. Ви вже деякий час користуєтеся цим безкоштовним плагіном, і я сподіваюся, що він вам сподобався!"
+
+#: includes/Helpers.php:1186 includes/Settings.php:390
+msgid "No results"
+msgstr "Немає результатів"
+
+#: includes/Settings.php:419
+msgid "Show SKU"
+msgstr "Показати артикули"
+
+#: includes/Settings.php:586
+msgid "Exclude “out of stock” products"
+msgstr "Виключити відсутні товари"
+
+#: widget.php:31
+msgid "Title"
+msgstr "Заголовок"
+
+#: widget.php:24
+msgid "AJAX (live) search form for WooCommerce"
+msgstr "Форма пошуку AJAX для WooCommerce"
+
+#: partials/admin/search-preview.php:38 partials/admin/search-preview.php:80
+#: partials/search-form.php:40
+msgid "Products search"
+msgstr "Пошук товарів"
+
+#: includes/Engines/WordPressNative/Search.php:950
+msgid "Tag"
+msgstr "Тег"
+
+#: includes/Engines/WordPressNative/Search.php:948
+msgid "Category"
+msgstr "Категорія"
+
+#: partials/admin/how-to-use.php:17
+msgid "Widgets Screen"
+msgstr "Налаштування віджетів"
+
+#: includes/Settings.php:357
+msgid "Upload preloader image"
+msgstr "Зображення предзавантажувача"
+
+#: includes/Settings.php:350
+msgid "Show preloader"
+msgstr "Показати предзавантажувач"
+
+#: includes/Settings.php:344
+msgid "Preloader"
+msgstr "Предзавантажувач"
+
+#: includes/Settings.php:524
+msgid "Border color"
+msgstr "Колір межі"
+
+#: includes/Settings.php:517
+msgid "Highlight color"
+msgstr "Колір виділення"
+
+#: includes/Settings.php:232 includes/Settings.php:510
+msgid "Text color"
+msgstr "Колір тексту"
+
+#: includes/Settings.php:503
+msgid "Suggestion selected"
+msgstr "Фон рядка вибору"
+
+#: includes/Settings.php:496
+msgid "Suggestion background"
+msgstr "Фон панелі"
+
+#: includes/Settings.php:337
+msgid "Search input border"
+msgstr "Межа панелі пошуку"
+
+#: includes/Settings.php:330
+msgid "Search input text"
+msgstr "Текст панелі пошуку"
+
+#: includes/Settings.php:323
+msgid "Search input background"
+msgstr "Фон панелі пошуку"
+
+#: includes/Settings.php:412
+msgid "Show product description"
+msgstr "Показати опис товару"
+
+#: includes/Settings.php:406
+msgid "Show price"
+msgstr "Показати ціну"
+
+#: includes/Settings.php:400
+msgid "Show product image"
+msgstr "Показати зображення товару"
+
+#: includes/Settings.php:483
+msgid "The Details panel is an additional container for extended information. The details change dynamically when the cursor hovers over one of the suggestions."
+msgstr "Панель \"Деталі\" є додатковим контейнером для розширеної інформації. Деталі змінюються, коли курсор наводиться на одну з пропозицій."
+
+#: includes/Helpers.php:1189 includes/Settings.php:241
+msgid "Search for products..."
+msgstr "Пошук товарів…"
+
+#: includes/Settings.php:239
+msgid "Search input placeholder"
+msgstr "Заповнювач панелі пошуку"
+
+#: includes/Settings.php:221 partials/search-form.php:58
+#: partials/themes/ekommart.php:34 partials/themes/storefront.php:64
+#: partials/themes/storefront.php:66
+msgid "Search"
+msgstr "Пошук"
+
+#: includes/Settings.php:218
+msgid "To display the magnifier icon leave this field empty."
+msgstr "Щоб відобразити іконку лупи, залиште це поле пустим."
+
+#: includes/Settings.php:210
+msgid "Show submit button"
+msgstr "Показати кнопку відправки"
+
+#: includes/Settings.php:192
+msgid "Minimum characters"
+msgstr "Мінімум символів"
+
+#: includes/Settings.php:375
+msgid "maximum number of suggestions"
+msgstr "максимальна кількість пропозицій"
+
+#: includes/Settings.php:251
+msgid "Style"
+msgstr "Стиль"
+
+#: includes/Settings.php:186 includes/Settings.php:366
+msgid "Basic"
+msgstr "Основні налаштування"
+
+#: includes/Admin/SettingsAPI.php:522
+msgid "Choose File"
+msgstr "Виберіть файл"
